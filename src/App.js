@@ -6,6 +6,8 @@ import './styles/index.css'
 import AboutMePage from './pages/AboutMePage'
 import SkillsPage from './pages/SkillsPage'
 import AcheivementsPage from './pages/AcheivementsPage'
+import WhatImLookingForPage from './pages/WhatImLookingForPage'
+import ExperiencePage from './pages/ExperiencesPage'
 
 function App() {
 	return (
@@ -20,6 +22,12 @@ function App() {
 			</div>
 			<div className="pt-5 pb-5">
 				<AcheivementsPage />
+			</div>
+			<div className="pt-5 pb-5">
+				<WhatImLookingForPage />
+			</div>
+			<div className="pt-5 pb-5">
+				<ExperiencePage />
 			</div>
 		</div>
 	)
