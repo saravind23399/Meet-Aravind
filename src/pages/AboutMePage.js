@@ -5,38 +5,60 @@ export default function AboutMePage(props) {
 	return (
 		<div id="whoami" className="container">
 			<div className="row">
-				<div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+				<div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 pt-5">
 					<h3 className="intro-title text-white">Profile</h3>
 					<hr />
 					<div className="row">
 						<div className="col">
-							<dl>
-								<KeyValueDisplay
-									title="Name"
-									value="Aravind S"
-									icon="account_circle"
-								/>
-							</dl>
-							<dl>
-								<KeyValueDisplay
-									title="Email"
-									value="saravind23399@gmail.com"
-									icon="account_circle"
-								/>
-							</dl>
+							<KeyValueDisplay
+								title="Name"
+								value="Aravind S"
+								icon="account_circle"
+							/>
+							<KeyValueDisplay
+								title="Email"
+								value="saravind23399@gmail.com"
+								icon="mail"
+							/>
+							<KeyValueDisplay
+								title="Proficiency"
+								value="Full Stack Web Developer"
+								icon="favorite"
+							/>
 						</div>
 						<div className="col">
-							<dl>
-								<KeyValueDisplay
-									title="Location"
-									value="Madurai, Tamil Nadu"
-									icon="near_me"
-								/>
-							</dl>
+							<KeyValueDisplay
+								title="Location"
+								value="Madurai, India"
+								icon="near_me"
+							/>
+							<KeyValueDisplay
+								title="Mobile"
+								value="+91 94867 35349"
+								icon="phone"
+							/>
 						</div>
 					</div>
 				</div>
-				<div className="col-sm-12 col-md-12 col-lg-8 col-xl-8"></div>
+				<div className="col-sm-12 col-md-12 col-lg-8 col-xl-8 pt-5">
+					<h3 className="intro-title text-white ">About Me</h3>
+					<hr />
+					<p className="text-white lead font-size-20">
+						Avid Programmer and Web developer looking for a great
+						lively team to work in a Startup that inspires me. I've
+						did a plethora of projects ranging from VB .NET for
+						Desktop Development, ASP .NET , MEAN and MERN Stack for
+						Web Development and React Native and Native Android for
+						Mobile applications.
+					</p>
+					<p className="text-white lead font-size-20">
+						I have launched 4 production level web applications, on
+						behalf of my College. Also i have an Android app that is
+						currently in Alpha Testing. I have been through numerous
+						training and this has molded me into the perfect
+						candidate you would like to choose for any role.
+					</p>
+				</div>
 			</div>
 		</div>
 	)

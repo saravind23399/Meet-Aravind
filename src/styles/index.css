@@ -14,3 +14,15 @@ dl {
 dt {
 	color: white;
 }
+
+.font-size-20 {
+	font-size: 20pt;
+}
+
+.font-size-30 {
+	font-size: 30pt;
+}
+
+.shadow-white {
+	box-shadow: 1px 1px 2000px 300px rgba(255, 255, 255, 0.3);
+}
