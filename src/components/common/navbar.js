@@ -38,7 +38,14 @@ export default function RootNavBar() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link js-scroll " href="#myskills">
-								My Skills
+								Skills
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								className="nav-link js-scroll "
+								href="#achievements">
+								Achievements
 							</a>
 						</li>
 					</ul>
