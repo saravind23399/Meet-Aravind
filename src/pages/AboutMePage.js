@@ -1,5 +1,6 @@
 import React from 'react'
 import KeyValueDisplay from '../components/AboutMePage/KeyValueDisplay'
+import SocialProfileDisplay from '../components/AboutMePage/SocialProfileDisplay'
 
 export default function AboutMePage(props) {
 	return (
@@ -25,6 +26,12 @@ export default function AboutMePage(props) {
 								value="Full Stack Web Developer"
 								icon="favorite"
 							/>
+							<SocialProfileDisplay
+								title="Linkedin"
+								link="https://www.linkedin.com/in/aravind-srinivasan-308724151/"
+								icon="logo-linkedin">
+								Aravind Srinivasan
+							</SocialProfileDisplay>
 						</div>
 						<div className="col">
 							<KeyValueDisplay
@@ -37,6 +44,12 @@ export default function AboutMePage(props) {
 								value="+91 94867 35349"
 								icon="phone"
 							/>
+							<SocialProfileDisplay
+								title="Github"
+								link="https://github.com/saravind23399"
+								icon="logo-github">
+								@saravind23399
+							</SocialProfileDisplay>
 						</div>
 					</div>
 				</div>

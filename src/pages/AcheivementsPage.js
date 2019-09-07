@@ -125,6 +125,12 @@ export default function AcheivementsPage() {
 						existing problem of manual level crossings
 					</AchievementCard>
 				</div>
+				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+					<div className="font-weight-bold font-size-20 p-5">
+						And Know What! This Site was coded on ReactJs, With
+						<i className="material-icons ml-3">favorite</i>
+					</div>
+				</div>
 			</div>
 		</div>
 	)
