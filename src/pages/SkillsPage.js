@@ -35,6 +35,7 @@ export default function SkillsPage() {
 							title="Visual Basic .NET"
 							degree="Advanced"
 						/>
+						<SkillsIndicator title="Hadoop" degree="Beginner" />
 					</div>
 				</div>
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -65,6 +66,10 @@ export default function SkillsPage() {
 						<SkillsIndicator
 							title="Appache Cassandra"
 							degree="Beginner"
+						/>
+						<SkillsIndicator
+							title="Arduino"
+							degree="Intermediate"
 						/>
 					</div>
 				</div>

@@ -18,16 +18,16 @@ function App() {
 				<AboutMePage />
 			</div>
 			<div className="pt-5 pb-5">
-				<SkillsPage />
-			</div>
-			<div className="pt-5 pb-5">
 				<AcheivementsPage />
 			</div>
 			<div className="pt-5 pb-5">
-				<WhatImLookingForPage />
+				<SkillsPage />
 			</div>
 			<div className="pt-5 pb-5">
 				<ExperiencePage />
+			</div>
+			<div className="pt-5 pb-5">
+				<WhatImLookingForPage />
 			</div>
 		</div>
 	)

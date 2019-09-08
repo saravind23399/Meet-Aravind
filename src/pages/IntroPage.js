@@ -11,11 +11,11 @@ export default function IntroPage(props) {
 							<img
 								src="images/profileImage.png"
 								alt="Profile"
-								className="rounded-circle shadow-white"
+								className="rounded-circle intro-img-shadow"
 								width="200"
 								height="200"></img>
 							<h1 className=" display-2 text-white mb-4">
-								Hey There! I am Aravind
+								Meet Aravind!
 							</h1>
 						</div>
 						<p className="lead font-size-30">

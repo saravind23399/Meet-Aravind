@@ -1,18 +1,10 @@
+* {
+	color: white;
+}
+
 hr {
 	border-width: 1px;
 	border-color: white;
-}
-
-span {
-	color: white;
-}
-
-dl {
-	color: white;
-}
-
-dt {
-	color: white;
 }
 
 .font-size-20 {
@@ -23,6 +15,6 @@ dt {
 	font-size: 30pt;
 }
 
-.shadow-white {
-	box-shadow: 1px 1px 2000px 300px rgba(0, 153, 255, 0.75);
+.intro-img-shadow {
+	box-shadow: 1px 1px 500px 300px rgba(0, 153, 255, 0.75);
 }

@@ -22,10 +22,11 @@ export default function AboutMePage(props) {
 								icon="mail"
 							/>
 							<KeyValueDisplay
-								title="Proficiency"
-								value="Full Stack Web Developer"
-								icon="favorite"
+								title="College"
+								value="MSEC, Sivakasi"
+								icon="menu_book"
 							/>
+
 							<SocialProfileDisplay
 								title="Linkedin"
 								link="https://www.linkedin.com/in/aravind-srinivasan-308724151/"
@@ -43,6 +44,11 @@ export default function AboutMePage(props) {
 								title="Mobile"
 								value="+91 94867 35349"
 								icon="phone"
+							/>
+							<KeyValueDisplay
+								title="Proficiency"
+								value="Full Stack Web Developer"
+								icon="favorite"
 							/>
 							<SocialProfileDisplay
 								title="Github"

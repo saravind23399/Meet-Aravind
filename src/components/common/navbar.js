@@ -37,11 +37,6 @@ export default function RootNavBar() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link js-scroll " href="#myskills">
-								Skills
-							</a>
-						</li>
-						<li className="nav-item">
 							<a
 								className="nav-link js-scroll "
 								href="#achievements">
@@ -49,10 +44,8 @@ export default function RootNavBar() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a
-								className="nav-link js-scroll "
-								href="#whatimlookingror">
-								What I'm Looking For
+							<a className="nav-link js-scroll " href="#myskills">
+								Skills
 							</a>
 						</li>
 						<li className="nav-item">
@@ -60,6 +53,13 @@ export default function RootNavBar() {
 								className="nav-link js-scroll "
 								href="#experiences">
 								Experiences
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								className="nav-link js-scroll "
+								href="#whatimlookingror">
+								What I'm Looking For
 							</a>
 						</li>
 					</ul>
