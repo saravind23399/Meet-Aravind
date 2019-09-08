@@ -47,7 +47,8 @@ export default function AchievementCard({
 								Timespan
 							</div>
 							<p className="text-dark lead">
-								From <b>{from}</b> To <b>{to}</b>
+								From <b className="text-dark">{from}</b> To{' '}
+								<b className="text-dark">{to}</b>
 							</p>
 							<div className="lead font-weight-bold text-dark">
 								My Role
