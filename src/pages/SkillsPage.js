@@ -8,7 +8,7 @@ export default function SkillsPage() {
 			<hr />
 			<div className="row">
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<div class="skill-mf">
+					<div className="skill-mf">
 						<SkillsIndicator
 							isIconEnabled={true}
 							icon="favorite"
@@ -39,7 +39,7 @@ export default function SkillsPage() {
 					</div>
 				</div>
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-					<div class="skill-mf">
+					<div className="skill-mf">
 						<SkillsIndicator
 							title="JavaScript"
 							degree="Intermediate"

@@ -5,7 +5,8 @@ export default function RootNavBar() {
 		<nav
 			className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
 			style={{ background: 'black' }}
-			id="mainNav">
+			id="mainNav"
+			onLoad={window.animateNavBar}>
 			<div className="container">
 				<a className="navbar-brand js-scroll" href="#page-top">
 					Aravind S

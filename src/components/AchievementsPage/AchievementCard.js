@@ -18,7 +18,7 @@ export default function AchievementCard({
 			<div
 				className="modal fade bg-dark"
 				id={`modal${idx}`}
-				tabindex="-1"
+				tabIndex="-1"
 				role="dialog"
 				aria-labelledby={`modalLabel${idx}`}
 				aria-hidden="true">
@@ -62,8 +62,10 @@ export default function AchievementCard({
 								Technology Stack Used
 							</div>
 							<div className="mt-3">
-								{technologiesUsed.map((technology) => (
-									<span className="badge badge-pill badge-dark p-3 mr-3 mt-2">
+								{technologiesUsed.map((technology, idx) => (
+									<span
+										key={idx}
+										className="badge badge-pill badge-dark p-3 mr-3 mt-2">
 										{technology}
 									</span>
 								))}
@@ -91,7 +93,7 @@ export default function AchievementCard({
 							data-target={`#modal${idx}`}>
 							<span className="d-flex align-items-center">
 								Know More
-								<i class="material-icons ml-4">
+								<i className="material-icons ml-4">
 									keyboard_arrow_right
 								</i>
 							</span>
