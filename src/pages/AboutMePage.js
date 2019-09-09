@@ -4,7 +4,7 @@ import SocialProfileDisplay from '../components/AboutMePage/SocialProfileDisplay
 
 export default function AboutMePage(props) {
 	return (
-		<div id="whoami" className="container">
+		<div className="container">
 			<div className="row">
 				<div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 pt-5">
 					<h3 className="intro-title text-white">Profile</h3>

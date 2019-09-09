@@ -3,7 +3,7 @@ import AchievementCard from '../components/AchievementsPage/AchievementCard'
 
 export default function AcheivementsPage() {
 	return (
-		<div id="achievements" className="container">
+		<div className="container">
 			<h3 className="intro-title text-white">My Achievements</h3>
 			<hr />
 			<div className="row">

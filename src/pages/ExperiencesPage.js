@@ -3,7 +3,7 @@ import ExperienceCard from '../components/Experiences/ExperienceCard'
 
 export default function ExperiencePage() {
 	return (
-		<div id="experiences" className="container">
+		<div className="container">
 			<h3 className="intro-title text-white">My Experiences</h3>
 			<hr />
 			<div className="text-center text-muted">

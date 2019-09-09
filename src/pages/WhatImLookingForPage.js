@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WhatImLookingForPage() {
 	return (
-		<div id="whatimlookingror" className="container">
+		<div className="container">
 			<h3 className="intro-title text-white">What I'm looking For</h3>
 			<hr />
 			<p className="lead text-white">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function IntroPage(props) {
 	return (
-		<div id="home" className="intro route" style={{ background: 'black' }}>
+		<div className="intro route" style={{ background: 'black' }}>
 			<div className="overlay-intro"></div>
 			<div className="intro-content display-table">
 				<div className="table-cell">

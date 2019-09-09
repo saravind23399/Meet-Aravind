@@ -58,7 +58,7 @@ export default function RootNavBar() {
 						<li className="nav-item">
 							<a
 								className="nav-link js-scroll "
-								href="#whatimlookingror">
+								href="#whatimlookingfor">
 								What I'm Looking For
 							</a>
 						</li>

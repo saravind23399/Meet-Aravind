@@ -3,7 +3,7 @@ import SkillsIndicator from '../components/MySkillsPage/SkillsIndicator'
 
 export default function SkillsPage() {
 	return (
-		<div id="myskills" className="container">
+		<div className="container">
 			<h3 className="intro-title text-white">Skills</h3>
 			<hr />
 			<div className="row">

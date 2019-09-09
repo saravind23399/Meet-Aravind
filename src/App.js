@@ -13,20 +13,22 @@ function App() {
 	return (
 		<div style={{ background: 'black' }}>
 			<RootNavBar />
-			<IntroPage />
-			<div className="pt-5 pb-5">
+			<div id="home" className="pt-5 pb-5">
+				<IntroPage />
+			</div>
+			<div id="whoami" className="pt-5 pb-5">
 				<AboutMePage />
 			</div>
-			<div className="pt-5 pb-5">
+			<div id="achievements" className="pt-5 pb-5">
 				<AcheivementsPage />
 			</div>
-			<div className="pt-5 pb-5">
+			<div id="myskills" className="pt-5 pb-5">
 				<SkillsPage />
 			</div>
-			<div className="pt-5 pb-5">
+			<div id="experiences" className="pt-5 pb-5">
 				<ExperiencePage />
 			</div>
-			<div className="pt-5 pb-5">
+			<div id="whatimlookingfor" className="pt-5 pb-5">
 				<WhatImLookingForPage />
 			</div>
 		</div>
