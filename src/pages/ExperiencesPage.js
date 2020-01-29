@@ -4,13 +4,22 @@ import ExperienceCard from '../components/Experiences/ExperienceCard'
 export default function ExperiencePage() {
 	return (
 		<div className="container">
-			<h3 className="intro-title text-white">My Experiences</h3>
+			<h3 className="intro-title text-white">Experiences</h3>
 			<hr />
-			<div className="text-center text-muted">
-				Completed Two major internships in reputed companies as a Full
-				Stack Developer
-			</div>
 			<div className="row mt-3">
+				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3 text-center text-white">
+					<ExperienceCard
+						company="Radicali"
+						workedAs="Full Stack Engineer"
+						image="https://zenprospect-production.s3.amazonaws.com/uploads/pictures/5d43ebbf80f93e19ca3eda6d/picture"
+						from="Dec 2019"
+						to="Present">
+						Working on<b className="text-dark">MICA </b> - Meet my Intelligent Compliance Assistant as a UI/UX
+						Engineer. MICA is a platform for Regulators and Compliance professionals to track
+						regulatory updates and act upon it. This is also my first endaveour into User 
+						Experience and Product Design.
+					</ExperienceCard>
+				</div>
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3 text-center text-white">
 					<ExperienceCard
 						company="Sqenta Technologies, Coimbatore"
