@@ -22,11 +22,10 @@ export default function AboutMePage(props) {
 								icon="mail"
 							/>
 							<KeyValueDisplay
-								title="College"
-								value="MSEC, Sivakasi"
-								icon="menu_book"
+								title="Location"
+								value="Bangalore, India"
+								icon="near_me"
 							/>
-
 							<SocialProfileDisplay
 								title="Linkedin"
 								link="https://www.linkedin.com/in/aravind-srinivasan-308724151/"
@@ -35,11 +34,13 @@ export default function AboutMePage(props) {
 							</SocialProfileDisplay>
 						</div>
 						<div className="col">
-							<KeyValueDisplay
-								title="Location"
-								value="Madurai, India"
-								icon="near_me"
-							/>
+							<SocialProfileDisplay
+								title="Work"
+								link="https://www.radicali.io"
+								icon="briefcase-outline"
+							>
+								Radicali Pvt Ltd.
+							</SocialProfileDisplay>
 							<KeyValueDisplay
 								title="Mobile"
 								value="+91 94867 35349"

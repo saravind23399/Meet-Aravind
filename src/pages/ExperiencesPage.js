@@ -14,7 +14,7 @@ export default function ExperiencePage() {
 						image="https://zenprospect-production.s3.amazonaws.com/uploads/pictures/5d43ebbf80f93e19ca3eda6d/picture"
 						from="Dec 2019"
 						to="Present">
-						Working on<b className="text-dark">MICA </b> - Meet my Intelligent Compliance Assistant as a UI/UX
+						Working on <b className="text-dark">MICA </b> - Meet my Intelligent Compliance Assistant as a UI/UX
 						Engineer. MICA is a platform for Regulators and Compliance professionals to track
 						regulatory updates and act upon it. This is also my first endaveour into User 
 						Experience and Product Design.
@@ -36,7 +36,7 @@ export default function ExperiencePage() {
 				</div>
 				<div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3 text-center text-white">
 					<ExperienceCard
-						image="https://www.tricog.com/images/logo.png"
+						image="https://www.tricog.com/wp-content/uploads/2019/12/logo.png"
 						company="Tricog Health Services, Bangalore"
 						workedAs="Full Stack Web Developer"
 						from="June 2019"
