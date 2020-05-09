@@ -28,7 +28,7 @@ export default function AboutMePage(props) {
 							/>
 							<SocialProfileDisplay
 								title="Linkedin"
-								link="https://www.linkedin.com/in/aravind-srinivasan-308724151/"
+								link="https://www.linkedin.com/in/meet-aravind-srinivasan/"
 								icon="logo-linkedin">
 								Aravind Srinivasan
 							</SocialProfileDisplay>
